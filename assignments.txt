@@ -38,3 +38,10 @@ create terraform template to setup below services and it should be in modules st
 2. sql servers
 3. storage account
 try to run terraform code from jenkins pipeline
+
+
+
+assignment9:
+try to run ansible playbook
+try notify and handler concept, in this case your play 2 should only execute once your play 1 is completed.
+example: play 1 install nginx, play 2 stop the nginx services
